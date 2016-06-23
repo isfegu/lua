@@ -8,3 +8,6 @@ RUN apt-get install -y lua5.3
 
 RUN apt-get clean
 
+RUN ln -sf /usr/bin/lua5.3 /usr/bin/lua
+RUN ln -sf /usr/bin/luac5.3 /usr/bin/luac
+

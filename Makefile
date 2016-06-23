@@ -8,6 +8,3 @@ build:
 
 shell:
 	docker run -it --rm --name $(CONTAINER_NAME) -v $(SOURCE):$(TARGET) -w $(TARGET) $(IMAGE_NAME) /bin/bash
-
-hello:
-	docker run -it --rm --name $(CONTAINER_NAME) -v $(SOURCE):$(TARGET) -w $(TARGET) $(IMAGE_NAME) python $(FILENAME)
