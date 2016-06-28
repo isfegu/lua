@@ -1,11 +1,12 @@
-if(type(nill) == nil) then
-    print('Is nill')
-else
-    print('Is not nil')
-end
+--[[
+2.1.- What is the value of the expression type(nil) == nil ? (You can
+use Lua to check your answer.) Can you explain this result?
+--]]
 
-if(type(nill) == 'nil') then
-    print('type(nill) return an string')
-else
-    print('type(nill) return an string')
-end
+print(type(nil) == nil)
+print(type(nil) == "nil")
+print(type(nil))
+
+--[[
+type() siempre retorna un string
+--]]
