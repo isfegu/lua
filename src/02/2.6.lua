@@ -9,11 +9,10 @@ What would be the value of a.a.a.a now?
 --]]
 
 a = {}
--- a.a = a     --> idem a["a"] = a
-a["a"] = a
+a.a = a     --> idem a["a"] = a
 
-print(a["a"])   --> table: 0x7dceb0
 print(a)    --> table: 0x7dceb0
+print(a["a"])   --> table: 0x7dceb0
 print(a.a)  --> table: 0x7dceb0
 print(a.a.a)  --> table: 0x7dceb0
 print(a.a.a.a)  --> table: 0x7dceb0
