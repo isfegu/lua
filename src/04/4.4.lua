@@ -1,5 +1,5 @@
 --[[
-4.2.- Rewrite the state machine of Listing 4.2 without using goto.
+4.4.- Rewrite the state machine of Listing 4.2 without using goto.
 
 Listing 4.2
 goto room1
